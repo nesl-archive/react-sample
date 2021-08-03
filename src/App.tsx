@@ -1,9 +1,11 @@
 // src/App.tsx
-import React from 'react'
-import { TopBlock } from "./components/TopBlock"
+import React, { useState } from 'react'
+import Counter from './components/Counter/Counter'
 
 export default function App(): JSX.Element {
-  return (
-    <TopBlock />
-  )
+	return (
+		<>
+			<Counter></Counter>
+		</>
+	)
 }
