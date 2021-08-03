@@ -1,16 +1,12 @@
 // src/App.tsx
-import Counter from './components/Counter/Counter'
-import GetUUID from './components/GetUUID/GetUUID'
-import GetUUIDByMultipleOfFive from './components/GetUUIDByMultipleOfFive/GetUUIDByMultipleOfFive'
+import UUIDStatus from './components/UUIDStatus/UUIDStatus'
+import UUIDList from './components/UUIDList/UUIDList'
 
 export default function App(): JSX.Element {
 	return (
 		<>
-			<Counter></Counter>
-			<hr />
-			<GetUUID></GetUUID>
-			<hr />
-			<GetUUIDByMultipleOfFive></GetUUIDByMultipleOfFive>
+			<UUIDStatus></UUIDStatus>
+			<UUIDList></UUIDList>
 		</>
 	)
 }

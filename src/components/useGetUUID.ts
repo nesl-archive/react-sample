@@ -1,8 +1,10 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
-export default function GetUUID(): JSX.Element {
+export default function useGetUUID(): string {
 	const [uuidString, setUuidString] = useState('')
+
+    // observe
     useEffect(():void=>{
         async function fetch() {
             const response= await axios.get("http://httpbin.org/uuid")
@@ -10,9 +12,6 @@ export default function GetUUID(): JSX.Element {
         }
         fetch()
     }, [])
-	return (
-		<>
-			<h1>{`UUID ${uuidString} 次`}</h1>
-		</>
-	)
+
+	return uuidString
 }
