@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*先把整個頁面的邊距取消掉，然後背景色為灰色*/
+body{
+  margin: 0px;
+  background: #E1E1E1;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*設定背景顏色、高度和對齊方式，上方的區塊和下方的內容會有一點距離，所以開外邊界推開*/
+#topBlock{
+  background: #4A90E2;
+  height: 75px;
+  text-align: center;
+  margin-bottom: 24px;
 }

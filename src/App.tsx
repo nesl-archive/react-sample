@@ -1,17 +1,9 @@
 // src/App.tsx
 import React from 'react'
-import { Route, Switch } from 'react-router'
-import { BrowserRouter } from 'react-router-dom'
-import HomePage from './pages/HomePage'
+import { TopBlock } from "./components/TopBlock"
 
-const App = () => {
+export default function App(): JSX.Element {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-      </Switch>
-    </BrowserRouter>
+    <TopBlock />
   )
 }
-
-export default App
