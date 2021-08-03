@@ -1,7 +1,7 @@
 // src/App.tsx
-import React, { useState } from 'react'
 import Counter from './components/Counter/Counter'
 import GetUUID from './components/GetUUID/GetUUID'
+import GetUUIDByMultipleOfFive from './components/GetUUIDByMultipleOfFive/GetUUIDByMultipleOfFive'
 
 export default function App(): JSX.Element {
 	return (
@@ -9,6 +9,8 @@ export default function App(): JSX.Element {
 			<Counter></Counter>
 			<hr />
 			<GetUUID></GetUUID>
+			<hr />
+			<GetUUIDByMultipleOfFive></GetUUIDByMultipleOfFive>
 		</>
 	)
 }
