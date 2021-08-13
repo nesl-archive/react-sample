@@ -15,6 +15,8 @@ npm i --save-dev @types/react-router @types/react-router-dom
 
 ## ref
  - https://zh-tw.coderbridge.com/series/baa71d69e008468ea0c69a4f98882863/posts/6f6d77167394498f958b402200d3e137
+ - https://ithelp.ithome.com.tw/articles/10205439
+ - https://ithelp.ithome.com.tw/users/20105162/ironman/2776?page=2
 
 ## note
  - useState(): 更新值，並刷新頁面。 用法: 
