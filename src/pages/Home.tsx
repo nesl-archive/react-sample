@@ -1,7 +1,8 @@
 import React from "react";
+import TextBox from '../component/TestBox'
 
 export default function Home(): JSX.Element{
     return (
-        <h2>Home</h2>
+        <TextBox title="title" msg="msg"></TextBox>
     )
 }
